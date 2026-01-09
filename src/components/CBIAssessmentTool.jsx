@@ -1015,8 +1015,7 @@ const CBIAssessmentTool = () => {
               <Download size={18} />
               Print Results
             </button>
-            <a href="https://cognitionblocksllc.com/cbi-overview">
-                <button>
+          <button>
               onClick={() => {
                 setShowResults(false);
                 setCurrentBlock(0);
@@ -1035,10 +1034,11 @@ const CBIAssessmentTool = () => {
                 cursor: 'pointer',
                 transition: 'all 0.3s ease'
               }}
-            >
+            >     <a href="https://cognitionblocksllc.com/cbi-overview"> </a>
              Explore the Science
+           
             </button>
-            </a>
+          
           </div>
 
           {/* Print Styles */}
