@@ -1015,6 +1015,28 @@ const CBIAssessmentTool = () => {
               <Download size={18} />
               Print Results
             </button>
+                <button
+              onClick={() => {
+                setShowResults(false);
+                setCurrentBlock(0);
+                setResponses({});
+                setAssessmentType(null);
+              }}
+              style={{
+                flex: 1,
+                minWidth: '200px',
+                padding: '16px 24px',
+                background: colors.bgCard,
+                border: `1px solid ${colors.border}`,
+                borderRadius: '50px',
+                color: colors.textPrimary,
+                fontWeight: 600,
+                cursor: 'pointer',
+                transition: 'all 0.3s ease'
+              }}
+            >
+             <a href="https://cognitionblocksllc.com/cbi-overview">Explore the Science</a>
+            </button>
           </div>
 
           {/* Print Styles */}
