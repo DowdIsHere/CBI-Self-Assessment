@@ -635,14 +635,14 @@ const CBIAssessmentTool = () => {
               marginBottom: '16px',
               lineHeight: 1.2
             }}>
-              Discover How Your Mind{' '}
+              Explore Your Cognitive{' '}
               <span style={{
                 background: `linear-gradient(135deg, ${colors.accentSpatial}, ${colors.accentTemporal})`,
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text'
               }}>
-                Actually Works
+                Profile
               </span>
             </h1>
 
@@ -653,7 +653,7 @@ const CBIAssessmentTool = () => {
               margin: '0 auto',
               lineHeight: 1.7
             }}>
-              Map your cognitive architecture across 8 parallel processing blocks. Understand your strengths and build personalized strategies.
+              This assessment explores your cognitive profile across 8 processing domains based on observable behaviors. Understand your strengths and build strategies that work with your natural tendencies.
             </p>
           </div>
 
