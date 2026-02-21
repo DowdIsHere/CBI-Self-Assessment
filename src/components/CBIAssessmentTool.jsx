@@ -676,7 +676,7 @@ const CBIAssessmentTool = () => {
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
               {[
-                { type: 'child', title: 'A Child or Student', subtitle: 'Ages 3-18' },
+                { type: 'child', title: 'A Child or Student', subtitle: 'Ages 3-18 (Adult Observer Recommended for Ages 10 and below)' },
                 { type: 'adult', title: 'Myself or Another Adult', subtitle: 'Ages 18+' }
               ].map((option) => (
                 <button
